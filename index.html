@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Soru Kartı</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="scene">
+    <section class="left">
+      <div class="character">
+        <!-- PNG avatar (will load character.png if present). You can also upload a file with the button. -->
+        <img id="avatar" class="avatar-img" src="character.png" alt="Karakter" />
+        <div class="nameplate">İREM <span class="heart">♥</span></div>
+      </div>
+    </section>
+
+    <section class="right">
+      <div class="bubble">
+        <div id="question">İlişkiden korkuyor musun?</div>
+      </div>
+
+      <div class="choices">
+        <button id="btn-yes" class="choice yes">Evet</button>
+        <button id="btn-no" class="choice no">Hayır</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
